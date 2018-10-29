@@ -2,7 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 idx = pd.IndexSlice
-
+'''
+Given the current opioid epidemic, and the thousands of lives and billions of dollars it has no doubt caused, I wanted to explore if by analyzing big data we could gain insight into the genesis of the prescription medication addiction. I analyzed a public dataset of Medicare drug expenditure. It provided both clinic and prescription data, as well as who was selling which medications, and even what political lobbying contributions each of these companies made. An exploratory analysis confirmed a rise in the # of users of Oxycodone and Morphine, however failed to reveal any connection with lobbying expenditure by pharmaceutical companies that produced opiate medications. Future analysis could include more rigorous time-series cause and effect analyses like Granger causality, and use other types of medications as controls. By investigating the healthcare market pressures that might have led to an even greater public health crises, we could provide advice on how best to avoid these situations in the future. 
+'''
 
 '''
 Get list of opiates
